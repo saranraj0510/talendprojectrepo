@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_zHtg8AuSEeq6HdoSPK40lg" name="sqlServerTest" id="_7fp4wAuREeq6HdoSPK40lg" label="sqlServerTest" dataPackage="_zHuIAAuSEeq6HdoSPK40lg" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://DESKTOP-J7IPQ7H:1433/AdventureWorksDW;" dbVersionString="JTDS" Port="1433" Username="talenduser" Password="eP6FhsJihnqHko+Hzi/nng==" ServerName="DESKTOP-J7IPQ7H" DatasourceName="" FileFieldName="" SID="AdventureWorksDW" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_zHtg8QuSEeq6HdoSPK40lg" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_zHtg8guSEeq6HdoSPK40lg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_zHtg8wuSEeq6HdoSPK40lg" tag="Status" value=""/>
+    <taggedValue xmi:id="_zHtg9AuSEeq6HdoSPK40lg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_zHtg9QuSEeq6HdoSPK40lg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_zHtg9guSEeq6HdoSPK40lg" tag="Description" value=""/>
+    <taggedValue xmi:id="_zHtg9wuSEeq6HdoSPK40lg" tag="Author" value=""/>
+    <taggedValue xmi:id="_zHtg-AuSEeq6HdoSPK40lg" tag="otherParameter"/>
+    <taggedValue xmi:id="_zHtg-QuSEeq6HdoSPK40lg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_zHtg-guSEeq6HdoSPK40lg" tag="DB ProductVersion" value="14.00.1000"/>
+    <taggedValue xmi:id="_zHtg-wuSEeq6HdoSPK40lg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_zHtg_AuSEeq6HdoSPK40lg" key="CONN_PARA_KEY_USERNAME" value="talenduser"/>
+    <parameters xmi:id="_zHtg_QuSEeq6HdoSPK40lg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_zHuIAAuSEeq6HdoSPK40lg" name="AdventureWorksDW" dataManager="_zHtg8AuSEeq6HdoSPK40lg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_zHuIAQuSEeq6HdoSPK40lg" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
